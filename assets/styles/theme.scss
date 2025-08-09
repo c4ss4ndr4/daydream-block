@@ -1,0 +1,10 @@
+:root { --dd-spacing: clamp(16px, 2vw, 28px); --dd-accent:#4f7cff; }
+@keyframes dd-fade-up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+body,.wp-site-blocks{ background:#dbdbdb; color:#fff; }
+.dd-container{ margin-inline:auto; padding:var(--dd-spacing); max-width:72rem; animation:dd-fade-up .45s ease-out both; }
+.dd-grid{ display:grid; grid-template-columns:repeat(12,1fr); gap:clamp(12px,1.2vw,20px); }
+.dd-col-4{ grid-column:span 4 } .dd-col-8{ grid-column:span 8 }
+@media (max-width:900px){ .dd-col-4,.dd-col-8{ grid-column:span 12 } }
+.dd-button{ display:inline-flex; gap:.5rem; padding:.625rem 1rem; border-radius:.5rem; background:var(--dd-accent); color:#fff; text-decoration:none; transition:filter .15s,transform .05s }
+.dd-button:hover{ filter:brightness(1.05) } .dd-button:active{ transform:translateY(1px) }
+@media (prefers-reduced-motion:reduce){ .dd-container{ animation:none } }

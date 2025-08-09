@@ -1,0 +1,19 @@
+{
+  "apiVersion": 3,
+  "name": "daydream/callout",
+  "title": "Callout",
+  "category": "text",
+  "icon": "megaphone",
+  "description": "Accessible callout with optional title and accent.",
+  "attributes": {
+    "title": { "type": "string", "source": "html", "selector": "h3" },
+    "message": { "type": "string", "source": "html", "selector": "p" },
+    "accent": { "type": "string", "default": "#4f7cff" }
+  },
+  "supports": {
+    "spacing": { "margin": true, "padding": true },
+    "color": { "background": true, "text": true }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css"
+}

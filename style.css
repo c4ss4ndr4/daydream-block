@@ -1,0 +1,15 @@
+/*
+Theme Name: Daydream Custom
+Theme URI: https://github.com/c4ss4ndr4/daydream-custom
+Author: Cassandra Marshall
+Author URI: https://cassandr.amarshall.site
+Description: Custom WordPress theme for Daydream Project with FSE and modern build tools.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: daydream-custom
+Tags: full-site-editing, block-editor, custom-blocks
+*/
+
+/* This file only contains the theme header.
+   All styles are compiled from assets/styles/theme.scss into /build/style.css */

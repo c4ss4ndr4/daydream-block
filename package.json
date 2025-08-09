@@ -1,0 +1,15 @@
+{
+  "name": "daydream-custom",
+  "version": "1.0.0",
+  "description": "Custom WordPress theme with SCSS + JS build via @wordpress/scripts.",
+  "scripts": {
+    "start": "wp-scripts start --webpack-src-dir=assets",
+    "build": "wp-scripts build --webpack-src-dir=assets"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "30.21.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.0"
+  }
+}

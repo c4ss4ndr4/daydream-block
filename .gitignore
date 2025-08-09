@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+
+# Editor settings
+.vscode/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build output
+build/
+
+# Logs
+*.log
+npm-debug.log
