@@ -3,4 +3,4 @@ import Edit from './edit';
 import save from './save';
 import './style.css';
 
-registerBlockType('daydream/callout', { edit: Edit, save });
+registerBlockType('daydream/notice', { edit: Edit, save });

@@ -1,0 +1,36 @@
+{
+  "apiVersion": 3,
+  "name": "daydream/date-display",
+  "title": "Date Display",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "Display the current date with customizable formatting.",
+  "attributes": {
+    "format": {
+      "type": "string",
+      "default": "F j, Y"
+    },
+    "showTime": {
+      "type": "boolean",
+      "default": false
+    },
+    "timeFormat": {
+      "type": "string",
+      "default": "g:i a"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "fontSize": {
+      "type": "string",
+      "default": "medium"
+    }
+  },
+  "supports": {
+    "spacing": { "margin": true, "padding": true },
+    "color": { "background": true, "text": true },
+    "typography": { "fontSize": true, "lineHeight": true },
+    "align": true
+  }
+} 

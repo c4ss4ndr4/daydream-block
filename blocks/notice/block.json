@@ -1,0 +1,17 @@
+{
+  "apiVersion": 3,
+  "name": "daydream/notice",
+  "title": "Notice",
+  "icon": "info",
+  "category": "text",
+  "description": "Simple notice with title and message.",
+  "attributes": {
+    "title": { "type": "string", "source": "html", "selector": "h3" },
+    "message": { "type": "string", "source": "html", "selector": "p" },
+    "accent": { "type": "string", "default": "#4f7cff" },
+    "customHeadingColor": { "type": "string" },
+    "customTextColor": { "type": "string" },
+    "customBackgroundColor": { "type": "string" }
+  },
+  "supports": { "spacing": { "padding": true, "margin": true }, "color": { "background": true, "text": true } }
+}
